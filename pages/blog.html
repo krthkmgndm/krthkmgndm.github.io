@@ -4,25 +4,24 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Blog</title>
-        <link rel="stylesheet" href="styles.css" />
-        <link rel="stylesheet" href="blog.css" />
+        <link rel="stylesheet" href="../styles.css" />
+        <link rel="stylesheet" href="blog/blog.css" />
     </head>
     <body>
         <nav class="navbar">
             <div class="navbar-container">
-                <a href="index.html" class="navbar-logo"
-                    >Keerthik Muruganandam</a
-                >
                 <ul class="navbar-menu">
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="../index.html">~</a></li>
                     <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="tutoring.html">Tutoring</a></li>
                 </ul>
             </div>
         </nav>
-        <div class="blog-content">
-            <h2>Posts</h2>
-            <!-- Add your blog content here -->
+        <div class="blog-content" style="padding-top: 80px">
+            <p>Nothing to see here...</p>
+            <ul id="post-list"></ul>
         </div>
+
+        <script src="blog/blog.js"></script>
     </body>
 </html>
