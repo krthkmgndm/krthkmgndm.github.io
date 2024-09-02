@@ -91,6 +91,8 @@ h1 {
 .navbar-container {
     display: flexbox;
     justify-content: space-between;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
     margin: 0 auto;
     padding: 0 20px;
 }
